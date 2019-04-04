@@ -1,5 +1,6 @@
-Let's say you're implementing supermarket checkout that calculates the total price of a number of items.  Normally items would be identified by their SKUs, for the sake of this exercise please just name the products a,b and c.
-Our goods are priced individually. In addition, some items are multipriced: buy n of them, and they’ll cost you y cents. For example, item ‘A’ might cost 50 cents individually, but this week we have a special offer: buy three ‘A’s and they’ll cost you $1.30. In fact this week’s prices are:
+Let's say you're implementing supermarket checkout that calculates the total price of a number of items.  
+- Normally items would be identified by their SKUs, for the sake of this exercise please just name the products A,B and C.
+- Our goods are priced individually. In addition, some items are multipriced: buy n of them, and they’ll cost you y cents. For example, item ‘A’ might cost 50 cents individually, but this week we have a special offer: buy three ‘A’s and they’ll cost you $1.30. In fact this week’s prices are:
 
   Item   Unit      Special
          Price     Price
