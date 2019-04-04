@@ -16,3 +16,5 @@ Included is a test file and basic boilerplate.
 You may use any gem you want.
 
 I want you to develop only a basic working solution. We'll talk if it can be improved in interview.
+
+Please don't fork this repo - clone it
