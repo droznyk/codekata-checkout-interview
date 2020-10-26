@@ -5,7 +5,24 @@ require_relative "../lib/checkout"
 class TestPrice < Minitest::Test
 
   # TODO: RULES go here, you decide which data structure is the best
-  # RULES = ...
+  RULES = {
+    "A" => {
+      regular_price: 50,
+      discount_items_count: 3,
+      discount_price: 130
+    },
+    "B" => {
+      regular_price: 30,
+      discount_items_count: 2,
+      discount_price: 45
+    },
+    "C" => {
+      regular_price: 20
+    },
+    "D" => {
+      regular_price: 15
+    }
+  }
 
   def price(goods)
     co = ::Checkout.new(RULES)
